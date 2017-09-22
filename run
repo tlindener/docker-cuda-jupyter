@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+docker run --rm  -it -v ~/notebooks:/notebooks -p 9000:8888 --name anaconda3 tlindener/anaconda3-gpu
